@@ -1,0 +1,20 @@
+{
+  "name": "Zynthic Web Solutions",
+  "short_name": "Zynthic Web",
+  "icons": [
+    {
+      "src": "/assets/images/logo/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#EF3B24",
+  "background_color": "#0E1012",
+  "display": "standalone",
+  "start_url": "/"
+}
