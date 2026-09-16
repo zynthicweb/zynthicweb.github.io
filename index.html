@@ -20,6 +20,14 @@
   <meta name="twitter:description" content="Professional websites, web applications, mobile apps, and digital growth services tailored for modern businesses.">
   <meta name="twitter:image" content="https://zynthicwe.github.io/assets/images/hero-build-something.jpg">
 
+  <!-- Preload LCP Hero Image -->
+  <link rel="preload" as="image" href="assets/images/hero-build-something.jpg" type="image/jpeg" fetchpriority="high">
+
+  <!-- Google Fonts Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,400;1,600&display=swap" rel="stylesheet">
+
   <!-- Favicon & Stylesheets -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -118,7 +126,7 @@
               <a href="contact.html" class="btn btn-primary">GET STARTED</a>
             </div>
             <div class="hero-image-wrapper red-accent-corner">
-              <img decoding="async" src="assets/images/hero-build-something.jpg" alt="Zynthic Software Engineering Team Collaborating on Digital Products" width="600" height="700" loading="eager">
+              <img decoding="async" src="assets/images/hero-build-something.jpg" alt="Zynthic Software Engineering Team Collaborating on Digital Products" width="600" height="700" loading="eager" fetchpriority="high">
             </div>
           </div>
 
@@ -134,7 +142,7 @@
               <a href="services.html" class="btn btn-primary">EXPLORE SERVICES</a>
             </div>
             <div class="hero-image-wrapper red-accent-corner">
-              <img decoding="async" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Software Engineering Dashboard" width="600" height="700" loading="lazy">
+              <img decoding="async" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=75" alt="Software Engineering Dashboard" width="600" height="700" loading="lazy">
             </div>
           </div>
 
@@ -150,7 +158,7 @@
               <a href="portfolio.html" class="btn btn-primary">VIEW PORTFOLIO</a>
             </div>
             <div class="hero-image-wrapper red-accent-corner">
-              <img decoding="async" src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80" alt="Mobile App Development" width="600" height="700" loading="lazy">
+              <img decoding="async" src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=75" alt="Mobile App Development" width="600" height="700" loading="lazy">
             </div>
           </div>
         </div>
@@ -307,7 +315,7 @@
         </div>
 
         <div>
-          <img decoding="async" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Digital Agency Product Strategy Team" width="600" height="450" loading="lazy" style="border-radius: var(--radius-sm); box-shadow: var(--shadow-md);">
+          <img decoding="async" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=75" alt="Digital Agency Product Strategy Team" width="600" height="450" loading="lazy" style="border-radius: var(--radius-sm); box-shadow: var(--shadow-md);">
         </div>
       </div>
     </section>
@@ -316,7 +324,7 @@
     <section class="section bg-light">
       <div class="container grid grid-2" style="align-items: center;">
         <div class="red-accent-corner">
-          <img decoding="async" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80" alt="Tech Architecture Workspace" width="600" height="450" loading="lazy" style="border-radius: var(--radius-sm);">
+          <img decoding="async" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=75" alt="Tech Architecture Workspace" width="600" height="450" loading="lazy" style="border-radius: var(--radius-sm);">
         </div>
 
         <div>
@@ -372,7 +380,7 @@
             <!-- Testimonial 1 -->
             <div class="testimonial-slide">
               <div class="testimonial-card red-accent-corner">
-                <img decoding="async" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Client Reviewer Adams Baker" class="testimonial-avatar">
+                <img decoding="async" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=75" alt="Client Reviewer Adams Baker" class="testimonial-avatar">
                 <h3 class="testimonial-name">Adams Baker</h3>
                 <span class="testimonial-role">CO-FOUNDER / TECH LEADS</span>
                 <p class="testimonial-quote">"Our custom web platform looks incredible and performs effortlessly under heavy traffic. The speed optimization results exceeded our expectations."</p>
@@ -382,7 +390,7 @@
             <!-- Testimonial 2 -->
             <div class="testimonial-slide">
               <div class="testimonial-card">
-                <img decoding="async" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80" alt="Client Reviewer Mary Evans" class="testimonial-avatar">
+                <img decoding="async" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=120&q=75" alt="Client Reviewer Mary Evans" class="testimonial-avatar">
                 <h3 class="testimonial-name">Mary Evans</h3>
                 <span class="testimonial-role">DIRECTOR OF MARKETING</span>
                 <p class="testimonial-quote">"Zynthic Web Solutions transformed our e-commerce checkout flow. Conversion rates increased by 38% within the first month of launch."</p>
@@ -392,7 +400,7 @@
             <!-- Testimonial 3 -->
             <div class="testimonial-slide">
               <div class="testimonial-card">
-                <img decoding="async" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Client Reviewer Sarah Lopez" class="testimonial-avatar">
+                <img decoding="async" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=75" alt="Client Reviewer Sarah Lopez" class="testimonial-avatar">
                 <h3 class="testimonial-name">Sarah Lopez</h3>
                 <span class="testimonial-role">CTO / ENTERPRISE PLATFORM</span>
                 <p class="testimonial-quote">"Professional engineering, transparent project management, and reliable post-launch support. Truly a top-tier digital development partner."</p>
@@ -402,7 +410,7 @@
             <!-- Testimonial 4 -->
             <div class="testimonial-slide">
               <div class="testimonial-card red-accent-corner">
-                <img decoding="async" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="Client Reviewer Rajesh Patel" class="testimonial-avatar">
+                <img decoding="async" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=75" alt="Client Reviewer Rajesh Patel" class="testimonial-avatar">
                 <h3 class="testimonial-name">Rajesh Patel</h3>
                 <span class="testimonial-role">E-COMMERCE FOUNDER</span>
                 <p class="testimonial-quote">"Their custom WooCommerce &amp; Laravel integration doubled our online sales velocity in Bhavnagar. High quality code and outstanding support!"</p>
@@ -412,7 +420,7 @@
             <!-- Testimonial 5 -->
             <div class="testimonial-slide">
               <div class="testimonial-card">
-                <img decoding="async" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="Client Reviewer Vikram Mehta" class="testimonial-avatar">
+                <img decoding="async" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=75" alt="Client Reviewer Vikram Mehta" class="testimonial-avatar">
                 <h3 class="testimonial-name">Ananya Sharma</h3>
                 <span class="testimonial-role">SAAS PRODUCT PRODUCT MANAGER</span>
                 <p class="testimonial-quote">"Zynthic Web Solutions delivered our cloud SaaS platform on time with strict SEO best practices and immaculate UI aesthetics."</p>
@@ -448,7 +456,7 @@
         <div class="grid grid-4">
           <!-- Article 1 -->
           <article class="blog-card">
-            <img decoding="async" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Website Cost in India Guide" loading="lazy">
+            <img decoding="async" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=75" alt="Website Cost in India Guide" loading="lazy">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title"><a href="blog/website-cost-india.html">How Much Does a Website Cost in India? (2026 Price Guide)</a></h3>
               <div class="blog-card-meta">
@@ -460,7 +468,7 @@
 
           <!-- Article 2 -->
           <article class="blog-card">
-            <img decoding="async" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Why Small Business Needs Website" loading="lazy">
+            <img decoding="async" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=75" alt="Why Small Business Needs Website" loading="lazy">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title"><a href="blog/why-business-needs-website.html">Why Every Business Needs a Professional Website</a></h3>
               <div class="blog-card-meta">
@@ -472,7 +480,7 @@
 
           <!-- Article 3 -->
           <article class="blog-card">
-            <img decoding="async" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Local SEO Guide" loading="lazy">
+            <img decoding="async" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=75" alt="Local SEO Guide" loading="lazy">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title"><a href="blog/seo-for-local-business.html">Complete Local SEO Strategy for Small Businesses</a></h3>
               <div class="blog-card-meta">
@@ -484,7 +492,7 @@
 
           <!-- Article 4 -->
           <article class="blog-card">
-            <img decoding="async" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="WordPress vs Custom" loading="lazy">
+            <img decoding="async" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=75" alt="WordPress vs Custom" loading="lazy">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title"><a href="blog/wordpress-vs-custom-development.html">WordPress vs Custom Web Development Explained</a></h3>
               <div class="blog-card-meta">
@@ -574,7 +582,7 @@
         </div>
 
         <div class="red-accent-corner">
-          <img decoding="async" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Project Consultation Call" width="600" height="500" loading="lazy" style="border-radius: var(--radius-sm);">
+          <img decoding="async" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=75" alt="Project Consultation Call" width="600" height="500" loading="lazy" style="border-radius: var(--radius-sm);">
         </div>
       </div>
     </section>
